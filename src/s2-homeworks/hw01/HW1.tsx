@@ -56,7 +56,7 @@ const HW1 = () => {
     <div id={"hw1"}>
       <div className={s2.hwTitle}>Homework #1</div>
       <div className={s2.hw}>
-        <div className={s2.messageContainer}>
+        <div className={s2.container}>
           {/*проверка отображения (не менять)*/}
           <div className={s2.messageWrp}>
             <Message message={message0} />

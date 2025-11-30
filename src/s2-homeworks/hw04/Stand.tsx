@@ -3,6 +3,7 @@ import s from './Stand.module.css'
 import SuperInputText from './common/c1-SuperInputText/SuperInputText'
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 import SuperButton from './common/c2-SuperButton/SuperButton'
+import s2 from '../../s1-main/App.module.css'
 
 const Stand = () => {
     const [stateForAllInputs, setValue] = useState<string>('')
@@ -11,7 +12,7 @@ const Stand = () => {
     const [stateForAllCheckboxes, setChecked] = useState<boolean>(false)
 
     return (
-        <div id={'hw4-stand'} className={s.stand}>
+        <div id={'hw4-stand'} className={s.stand + ' ' + s2.container}>
             <div className={s.inputs}>
                 {/*совместим со старым кодом:*/}
                 <div>
